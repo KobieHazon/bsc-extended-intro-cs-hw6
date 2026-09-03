@@ -1,12 +1,3 @@
-#Skeleton file for HW6 - Fall 2017-2018 - extended intro to CS
-
-#Add your implementation to this file
-
-#You may add other utility functions to this file,
-#but you may NOT change the signature of the existing ones.
-
-#Change the name of the file to include your ID number (hw6_ID.py).
-
 from matrix import *
 from huffman import *
 
