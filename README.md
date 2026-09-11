@@ -48,7 +48,7 @@ The tests cover the recovered embedded tester, generator ordering, rotation exam
 - `assignment/huffman.py`: supplied Huffman helper preserved in its original form
 - `assignment/printree.py`: supplied binary-tree printing helper preserved in its original form
 - `solution/hw6.py`: my recovered submitted Python solution
-- `solution/written-answers.pdf`: my exported written answers with PDF metadata reduced to the author's name
+- `solution/written-answers.pdf`: my exported written answers
 - `src/extended_intro_hw6/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including the recovered embedded tester
 
