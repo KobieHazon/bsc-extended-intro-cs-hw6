@@ -10,7 +10,7 @@ T = TypeVar("T")
 
 
 def choose_sets_gen(values: Sequence[T], k: int) -> Generator[list[T], None, None]:
-    """Yield all k-sized selections from values, preserving the recovered order."""
+    """Yield all k-sized selections from values, preserving the order."""
 
     if k < 0:
         raise ValueError("k must be non-negative")
