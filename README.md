@@ -19,7 +19,7 @@ cd bsc-extended-intro-cs-hw6
 uv sync --dev
 ```
 
-The maintained package supports Python 3.12 or newer and has no runtime dependencies. The preserved solution imports the original matrix display helper, which expects Python `tkinter`; the maintained package only imports Tk when `Matrix.display()` is called.
+The implementation supports Python 3.12 or newer and has no runtime dependencies. The preserved solution imports the original matrix display helper, which expects Python `tkinter`; the implementation only imports Tk when `Matrix.display()` is called.
 
 ## Usage
 
@@ -49,5 +49,5 @@ The tests cover the embedded tester, generator ordering, rotation examples, roll
 - `assignment/printree.py`: supplied binary-tree printing helper preserved in its original form
 - `solution/hw6.py`: my submitted Python solution
 - `solution/written-answers.pdf`: my exported written answers
-- `src/extended_intro_hw6/`: maintained algorithms and command-line interface
+- `src/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including the embedded tester

@@ -4,7 +4,15 @@ from __future__ import annotations
 
 import argparse
 
-from .exercises import choose_sets_gen, decode, is_rotated_1, lz_Qa, lz_Qb, lz_Qc, weighted_length
+from extended_intro_hw6 import (
+    choose_sets_gen,
+    decode,
+    is_rotated_1,
+    lz_Qa,
+    lz_Qb,
+    lz_Qc,
+    weighted_length,
+)
 
 
 def csv_values(value: str) -> list[str]:

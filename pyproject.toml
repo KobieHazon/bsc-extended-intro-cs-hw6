@@ -12,7 +12,7 @@ authors = [{ name = "Kobie Hazon" }]
 dependencies = []
 
 [project.scripts]
-extended-intro-hw6 = "extended_intro_hw6.cli:cli"
+extended-intro-hw6 = "extended_intro_hw6_cli:cli"
 
 [dependency-groups]
 dev = [
@@ -21,7 +21,8 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/extended_intro_hw6"]
+only-include = ["src/extended_intro_hw6.py", "src/extended_intro_hw6_cli.py"]
+sources = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

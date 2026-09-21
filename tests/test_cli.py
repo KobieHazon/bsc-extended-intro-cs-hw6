@@ -6,7 +6,7 @@ import sys
 
 def run_cli(*arguments: str) -> str:
     result = subprocess.run(
-        [sys.executable, "-m", "extended_intro_hw6.cli", *arguments],
+        [sys.executable, "-m", "extended_intro_hw6_cli", *arguments],
         check=True,
         capture_output=True,
         text=True,
